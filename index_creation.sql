@@ -1,0 +1,1 @@
+create index first_name_idx on customer10mindex(first_name);
