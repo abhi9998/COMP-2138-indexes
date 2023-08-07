@@ -7,7 +7,7 @@ CREATE TABLE Customer1k (
     phone DECIMAL(10,0)
 );
 
-CREATE TABLE Customer10mNoIndex (
+CREATE TABLE Customer50mNoIndex (
 	customer_id SERIAL PRIMARY KEY ,
     first_name VARCHAR(50),
     last_name VARCHAR(50),
@@ -16,7 +16,7 @@ CREATE TABLE Customer10mNoIndex (
     phone DECIMAL(10,0)
 );
 
-CREATE TABLE Customer10mIndex (
+CREATE TABLE Customer50mIndex (
 	customer_id SERIAL PRIMARY KEY ,
     first_name VARCHAR(50),
     last_name VARCHAR(50),
